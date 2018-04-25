@@ -1,0 +1,70 @@
+@import "normalize";
+
+@import "foundation";
+@include foundation-everything;
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background: no-repeat center fixed;
+  background-size: cover;
+
+  &.field {
+    background-image: url(../imgs/prairie-1246633_1920.jpg);
+  }
+
+  &.mountains {
+    background-image: url(../imgs/glacier-863483_1920.jpg);
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: inherit;
+  font-weight: normal;
+}
+a {
+  color: #2199e8;
+
+  &:hover {
+    color: #1583cc;
+  }
+}
+.content {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 2;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+  background: #fff;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 300;
+
+    a, a:hover {
+      color: inherit;
+    }
+  }
+
+  .call {
+    display: inline-block;
+    line-height: 45px;
+  }
+}
+
+.top-footer {
+  padding: 100px 0 40px;
+  background-color: #f9f9f9;
+}
+
+@import "landing-page";
+@import "dashboard.scss";
+@import "editor";

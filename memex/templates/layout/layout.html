@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <link rel="icon" href="//cdn.quatrolabs.com/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
+  <link rel="stylesheet" href="/css/memex.css">
+  <title>Mem</title>
+</head>
+<body class="{{context}} {{background}}">
+  <div class="content" role="main">
+    <header class="top-header">
+      <div class="row">
+        <div class="columns small-3"><h1><a href="/">Mem</a></h1></div>
+        <div class="columns small-9 text-right">
+          {{#if authenticated}}
+            <a class="call" href="/signout">Sign Out</a>
+          {{else}}
+            <a class="call" href="/authorize">Sign Up / Sign In</a>
+          {{/if}}
+        </div>
+      </div>
+    </header>
+    {{{content}}}
+    <footer class="top-footer">
+      <div class="row">
+        <div class="columns small-12">
+          <p class="text-right">
+            Mem is part of the <a href="//quatrolabs.com">QuatroLabs</a> projects.<br>
+            Licensed under the <a href="https://www.gnu.org/licenses/agpl.txt">GNU AFFERO GPL, Version 3</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="/js/memex.min.js"></script>
+</body>
+</html>
