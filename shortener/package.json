@@ -38,7 +38,7 @@
     "gulp-uglify": "3.0.0",
     "handlebars": "4.0.10",
     "hapi": "16.5.2",
-    "hoek": "4.2.0",
+    "hoek": "^4.2.0",
     "inert": "4.2.1",
     "normalize.scss": "0.1.0",
     "vinyl-buffer": "1.0.0",
