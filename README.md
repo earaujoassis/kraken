@@ -6,12 +6,14 @@ Kraken was conceived as a conjuction between a previous project named `memex`, w
 described as "A personal platform knowledge base system (memex); a personal, multi-device
 application to keep track of readings, writings and research projects". We added the
 file management into it in order to keep track of not only documents (from a documents-store),
-but also files and other documents (like PDF, images etc).
+but also files and other documents (like PDF, images etc). Another project also merged
+into this one is `shortener`, which was intended to be a "URL Shortener" tool.
 
 Kraken is a multi-service system; its back-end is written in Python, through Flask and Pymongo,
-and its front-end is written in JavaScript, from the original Memex project. The back-end
-(`core`) is LICENSED under the "MIT License" and the front-end (`memex`) is LICENSED under the
-"GNU AFFERO GPL, Version 3". Please refer to each LICENSE file for more details.
+and its front-end is written in JavaScript, from the original Memex and Shortener projects.
+The back-end (`core`) is LICENSED under the "MIT License" and the front-end (`memex`) is LICENSED
+under the "GNU AFFERO GPL, Version 3" and (`shortener`) under the "MIT License". Please refer
+to each LICENSE file for more details.
 
 ## Issues
 

@@ -1,0 +1,8 @@
+.DS_Store
+.env
+*.log
+node_modules
+public
+db.config.json
+!db.config.json.sample
+.elasticbeanstalk/

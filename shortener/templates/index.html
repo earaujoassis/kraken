@@ -1,0 +1,27 @@
+<h2>Create URL</h2>
+<form method="POST" action="/create">
+  <fieldset>
+    <legend>&nbsp;</legend>
+    <div class="row collapse prefix-round">
+      <div class="columns small-2">
+        <label class="prefix" for="address">http(s)://</label>
+      </div>
+      <div class="columns small-6 end">
+        <input type="text" name="address" id="address" />
+      </div>
+    </div>
+    <div class="row collapse prefix-round">
+      <div class="columns small-2">
+        <label class="prefix" for="shortened">l.earaujoassis.com/</label>
+      </div>
+      <div class="columns small-4 end">
+        <input type="text" name="shortened" id="shortened" placeholder="Custom slug" />
+      </div>
+    </div>
+    <div class="row collapse">
+      <div class="columns small-offset-2 small-6 end">
+        <button class="button expand" type="submit">Create</button>
+      </div>
+    </div>
+  </fieldset>
+</form>

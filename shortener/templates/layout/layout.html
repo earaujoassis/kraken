@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i">
+  <link rel="stylesheet" href="/css/shortener.css">
+  <title>earaujoassis.com / Shortener</title>
+</head>
+<body>
+  <div class="content" role="main">
+    <header class="top-header">
+      <div class="row">
+        <div class="columns small-6">
+          <h1 class="branding">
+            <a href="/">earaujoassis.com / <small>Shortener</small></a>
+          </h1>
+        </div>
+        <div class="columns small-6">
+          <ul class="top-menu">
+            {{#if isAuthenticated}}
+            <li><a href="/sign-out">Sign out</a></li>
+            {{else}}
+            <li><a href="/sign-in">Sign in</a></li>
+            {{/if}}
+          </ul>
+        </div>
+      </div>
+    </header>
+    {{#if isAuthenticated}}
+    <nav class="navigator">
+      <div class="row">
+        <div class="columns small-12">
+          <ul class="top-menu">
+            <li><a href="/urls">Shortened URLs</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    {{/if}}
+    <div class="body">
+      <div class="row">
+        <div class="columns small-12">
+          {{{content}}}
+        </div>
+      </div>
+    </div>
+    <footer class="top-footer">
+      <div class="row">
+        <div class="columns small-12">
+          <p><b>Copyright &copy; 2017-present Ewerton Assis.</b></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
