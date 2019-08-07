@@ -1,0 +1,23 @@
+{
+  "name": "photography",
+  "version": "0.1.0",
+  "description": "Subproject to manage photographies and images",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earaujoassis/kraken.git"
+  },
+  "author": "Ewerton Carlos Assis <earaujoassis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/earaujoassis/kraken/issues"
+  },
+  "homepage": "https://github.com/earaujoassis/kraken#readme",
+  "engines": {
+    "node": "8.12.0"
+  }
+}

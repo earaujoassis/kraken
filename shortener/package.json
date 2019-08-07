@@ -10,39 +10,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/earaujoassis/shortener.git"
+    "url": "git+https://github.com/earaujoassis/kraken.git"
   },
-  "keywords": [
-    "server",
-    "url",
-    "shortener"
-  ],
-  "author": "Ewerton Assis <earaujoassis@gmail.com>",
+  "author": "Ewerton Carlos Assis <earaujoassis@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/earaujoassis/shortener/issues"
+    "url": "https://github.com/earaujoassis/kraken/issues"
   },
-  "homepage": "https://github.com/earaujoassis/shortener#readme",
+  "homepage": "https://github.com/earaujoassis/kraken#readme",
   "engines": {
-    "node": "6.9.1"
+    "node": "8.12.0"
   },
   "dependencies": {
     "babel-preset-es2015": "6.24.1",
-    "babelify": "7.3.0",
-    "browserify": "14.4.0",
-    "dotenv": "4.0.0",
-    "foundation-sites": "6.4.1",
-    "gulp": "3.9.1",
-    "gulp-rename": "1.2.2",
-    "gulp-sass": "3.1.0",
-    "gulp-uglify": "3.0.0",
-    "handlebars": "4.0.10",
-    "hapi": "16.5.2",
-    "hoek": "^4.2.0",
-    "inert": "4.2.1",
+    "babelify": "10.0.0",
+    "browserify": "16.3.0",
+    "dotenv": "8.0.0",
+    "foundation-sites": "6.5.3",
+    "gulp": "4.0.2",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "handlebars": "4.1.2",
+    "hapi": "18.1.0",
+    "hoek": "^6.1.3",
+    "inert": "5.1.3",
     "normalize.scss": "0.1.0",
-    "vinyl-buffer": "1.0.0",
-    "vinyl-source-stream": "1.1.0",
-    "vision": "4.1.1"
+    "vinyl-buffer": "1.0.1",
+    "vinyl-source-stream": "2.0.0",
+    "vision": "5.4.4"
   }
 }
